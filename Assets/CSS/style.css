@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-color: #FFA69E;
+    height: 12vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+h1 {
+ align-items: center;
+}
+li {
+    list-style-type: none;
+}
+section {
+    background-color: green;
+    
+}
+
+.search-header {
+    padding: 100px;
+}
+.row {
+    padding-left: 20px;
+}
+.week {
+    height: 80px;
+    background-color: grey;
+    color: black;
+}
+
+/*
+    <header>
+        <h1 class = 'titleEl mb-12' > Weather Tracker</h1>
+    </header>
+    <div class="container-fluid">
+        <div class="row content">
+            <div class="col-sm-3 sidenav hidden-xs">
+    
+    <div
+    id="sidenav-3"
+    data-mdb-close-on-esc="false"
+    class="sidenav"
+    data-mdb-hidden="false"
+    data-mdb-position="absolute"
+    data-mdb-focus-trap="false"
+    data-mdb-scroll-container="#scroll-container"
+    role="navigation"
+    >
+    <div class="text-center">
+        <h2 class="py-4">Search For Any City!</h2>
+        
+        <div class="input-group mb-3 col-12">
+            <input id="citySearch" type="text" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default" placeholder="City Search">
+        </div>
+        <button id="searchBtn" type="button" class="btn btn-primary mx-auto mb-2" placeholder="City Name">Search</button>
+        <hr>
+        <h3>Past searches</h3>
+        <p id="search-history"></p>
+    </div>
+
+    <div class="col-12 col-md-8 row">
+        <div class="current border m-3 border-dark-subtle border-2 col-12">
+            <h2>
+                <span id="city-name">City Name</span> 
+                
+            </h2>
+            <h2>
+                <span id="present"></span> 
+            </h2>
+
+            <p id="temp">Temp: </p>
+            <p id="wind">Wind: </p>
+            <p id="humid">Humidity: </p>
+        </div>
+        <div class="row">
+            <!-- <div class="col-12"> 
+                <h3>5-Day Forecast:</h3> --> <!--
+                <nav class="navbar bg-white">
+                    <div class="container-fluid">
+                        <span class="navbar-brand fs-3 mb-0 fw-bold">5-Day Forecast:</span>
+                    </div>
+                </nav>
+            </div>
+            <div class="forecast col-2 m-3">
+                <p id="date-0"></p>
+                <p id="icon-0"></p>
+                <p id="temp-0"></p>
+                <p id="wind-0"></p>
+                <p id="humid-0"></p>
+            </div>
+            <div class="forecast col-2 m-auto">
+                <p id="date-1"></p>
+                <p id="icon-1"></p>
+                <p id="temp-1"></p>
+                <p id="wind-1"></p>
+                <p id="humid-1"></p>
+            </div>
+            <div class="forecast col-2 m-auto">
+                <p id="date-2"></p>
+                <p id="icon-2"></p>
+                <p id="temp-2"></p>
+                <p id="wind-2"></p>
+                <p id="humid-2"></p>
+            </div>
+            <div class="forecast col-2 m-auto">
+                <p id="date-3"></p>
+                <p id="icon-3"></p>
+                <p id="temp-3"></p>
+                <p id="wind-3"></p>
+                <p id="humid-3"></p>
+            </div>
+            <div class="forecast col-2 m-auto">
+                <p id="date-4"></p>
+                <p id="icon-4"></p>
+                <p id="temp-4"></p>
+                <p id="wind-4"></p>
+                <p id="humid-4"></p>
+            </div>
+            
+        </div>
+    </div>
+</div>
+</div>
+>

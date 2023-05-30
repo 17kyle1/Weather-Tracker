@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-Tracker</title>
+    <link rel="stylesheet" href = "./Assets/CSS/style.css">
+</head>
+<body> <!---->
+    <header>
+        <h1 class = 'titleEl mb-12' > Weather Tracker</h1>
+    </header>
+    
+    <div class="row">
+        <div class="col-12 col-md-4 row">
+            <h2 class = "search-header">Search city:</h2>
+            <div class="input-group mb-3 col-12">
+                <input id="citySearch" type="text" class="form-control" aria-label="Sizing example input"
+                    aria-describedby="inputGroup-sizing-default" placeholder="Search City">
+            </div>
+            <button id="searchBtn" type="button" class="btn btn-primary mx-auto mb-2" placeholder="Search Button">Search</button>
+            <hr>
+            <h3>Search History</h3>
+            <p id="history"></p>
+            
+        </div>
+        <div class="col-12 col-md-8 row">
+            <div class="current border m-3 border-dark-subtle border-2 col-12">
+                <h2>
+                    <span id="city-name">City Name:</span> 
+                 
+                </h2>
+                <h2>
+                    <span id="current-date">Date:</span> 
+                </h2>
+                
+                <p id="humidity">Humidity </p>
+                <p id="wind">Wind: </p>
+                <p id="temp-1">Temp: </p>
+            </div>
+            <div class="row">
+                 
+                    <nav class="navbar bg-white">
+                        <div class="container-fluid">
+                            <span class="navbar-brand fs-3 mb-0 fw-bold">5-Day Forecast:</span>
+                        </div>
+                    </nav>
+                </div>
+                <div class="week col-3 m-auto">
+                    <p class="date-0"></p>
+                    <p class="icon-0"></p>
+                    <p class="temp-0"></p>
+                    <p class="wind-0"></p>
+                    <p class="humid-0"></p>
+                </div>
+                <div class="week col-3 m-auto">
+                    <p class="date-1"></p>
+                    <p class="icon-1"></p>
+                    <p class="temp-1"></p>
+                    <p class="wind-1"></p>
+                    <p class="humid-1"></p>
+                </div>
+                <div class="week col-3 m-auto">
+                    <p class="date-2"></p>
+                    <p class="icon-2"></p>
+                    <p class="temp-2"></p>
+                    <p class="wind-2"></p>
+                    <p class="humid-2"></p>
+                </div>
+                <div class="week col-3 m-auto">
+                    <p class="date-3"></p>
+                    <p class="icon-3"></p>
+                    <p class="temp-3"></p>
+                    <p class="wind-3"></p>
+                    <p class="humid-3"></p>
+                </div>
+                <div class="week col-3 m-auto">
+                    <p class="date-4"></p>
+                    <p class="icon-4"></p>
+                    <p class="temp-4"></p>
+                    <p class="wind-4"></p>
+                    <p class="humid-4"></p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+   
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
+    integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
+    crossorigin="anonymous"></script>
+
+    <script src="Assets/JS/script.js"></script>
+</body>
+</html>
